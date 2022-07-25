@@ -130,3 +130,28 @@ main{
 .content__form__red:hover{
     filter: saturate(3);
 }
+
+@media (min-width: 50rem){
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    main > section {
+        flex: 0 2 45%;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        text-align: left;
+    }
+
+    .content__notice{
+        margin-top: 0;
+    }
+}
