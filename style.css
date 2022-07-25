@@ -91,6 +91,13 @@ main{
     height: 3rem;
     padding-left: 1rem;
     font-weight: 600;
+    border: none;
+    border-radius: 0.3rem;
+    outline: 1px solid var(--grayish-blue);
+}
+
+.content__form__text:focus{
+    outline: 1px solid var(--dark-blue);
 }
 
 .content__form__button{
@@ -103,6 +110,10 @@ main{
     cursor: pointer;
     border-radius: 0.5rem;
     box-shadow: 0px 0.3rem hsl(154, 59%, 48%);
+}
+
+.content__form__button:hover{
+    opacity: 0.7;
 }
 
 .content__form__term{
