@@ -155,3 +155,39 @@ main{
         margin-top: 0;
     }
 }
+
+/* Error elements */
+.content__form > *{
+    margin: 0;
+}
+
+.content__form__input__wrapper{
+    position: relative;
+}
+
+.content__form__input input{
+    width: 100%;
+}
+
+.content__form__input__wrapper::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translate(-50%, -50%);
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url('./images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.content__form__input__message{
+    display: block;
+    text-align: right;
+    visibility: hidden;
+    color: var(--red);
+    font-weight: 500;
+}
+
