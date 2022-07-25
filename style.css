@@ -20,3 +20,10 @@ html {
     font-weight: 200;
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    background-image: url('./images/bg-intro-desktop.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: var(--red);
+}
