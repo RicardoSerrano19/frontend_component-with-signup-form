@@ -126,3 +126,7 @@ main{
     font-weight: 500;
     cursor: pointer
 }
+
+.content__form__red:hover{
+    filter: saturate(3);
+}
